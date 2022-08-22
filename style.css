@@ -1,0 +1,128 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    /* border: dotted !important; */
+}
+
+
+.contenedor{
+    height: 1000px;
+    width: 1000px;
+    border: red solid;
+
+}
+
+.fila1{
+    height: 700px;
+    width: 990px;
+    border: blue solid;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.rojo{
+    height: 690px;
+    width: 600px;
+    background-color: purple;
+    /* border: red solid 100px; */
+  
+}
+
+.bloques_blancos_vertical{
+    height: 690px;
+    width: 380px;
+    border: yellow solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.blanco{
+    height: 345px;
+    max-width: 380px;
+    border: black solid;
+}
+
+.fila2{
+    display: flex;
+
+}
+
+.azul{
+    height: 290px;
+    width: 350px;
+    background-color: blue;
+    border: green solid 5px;
+}
+
+.blanco_rectangular{
+    height: 290px;
+    width: 500px;
+    border: black solid;
+}
+
+.bloques-columna-2{
+    height: 290px;
+    width: 150px;
+    border: green solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.bloques-peques{
+    height: 145px;
+    width: 140px;
+    border: black solid;
+}
+
+#titulo-referencia {
+    display: inline;
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    position: absolute;
+    left: 100px;
+    top: 200px;
+    /* font-weight: normal; */
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 4px 4px 4px grey;
+  }
+
+  /*
+  #message {
+    width: inherit;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px grey;
+    /* change the position properties here */
+    /* position: fixed;  
+    bottom: 80px;
+  }
+
+  #message .header {
+    margin: 0px;
+    background-color: #ddd;
+    padding: 10px;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+  }
+
+#message button {
+    height: 30px;
+    width: 80px;
+  }
+  */
+
+ #quieroqueseaInline{
+    display: inline-block;
+ } 
